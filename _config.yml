@@ -1,0 +1,12 @@
+lsi: false
+safe: true
+source: C:/Users/andre/OneDrive/Documents/General School/AGaylord6.github.io
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+theme: jekyll-theme-Midnight
