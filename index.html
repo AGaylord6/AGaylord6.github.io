@@ -22,12 +22,16 @@
 
         h1 {
             color: #333;
+            perspective: 109px;
+            transform: rotateX(0deg) rotateY(36deg);
+            transform-style: preserve-3d;
         }
 
         img {
-            border-radius: 50%;
-            max-width: 200px;
+            border-radius: 10%;
+            max-width: 600px;
             margin: 20px;
+            filter: drop-shadow(5px 5px 10px #000000);
         }
 
         ul {
@@ -50,13 +54,16 @@
 <body>
     <header>
         <h1>Andrew Gaylord</h1>
-        <img src="C:\Users\andre\OneDrive\Documents\General School\AGaylord6.github.io\headshot.jpeg" alt="Your Photo">
+        <!-- <img src="C:\Users\andre\OneDrive\Documents\General School\AGaylord6.github.io\headshot.jpeg" alt="Your Photo"> -->
+        <!-- <img src="headshot.jpeg" alt="Andrew Gaylord photo" width="1536" height="806"> -->
+        <img src="headshot.jpeg" alt="Professional Headshot" width="1000">
+
     </header>
 
     <section>
         <h2>Projects</h2>
         <ul>
-            <li><a href="#">IrishSat</a></li>
+            <li><a href="https://github.com/ND-IrishSat/protosat-23-24" rel="external">IrishSat Repository</a></li>
             <li><a href="#">Game of Life</a></li>
             <li><a href="#">Project 3</a></li>
             <!-- Add more projects as needed -->
