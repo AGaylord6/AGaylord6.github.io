@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Gaylord, BS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- ensure mobile responsivity -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- import bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    </header>
+
+    <div class="bg-image">
+        <img
+            src="manor_winter.jpg"
+            class="w-100"
+            alt="Manor in Winter">
+
+        <div class="mask d-flex flex-column justify-content-center align-items-center" style="background-color: hsla(0, 0%, 0%, 0.65)">
+                
+                <h1 class="text-center text-white mb-4">
+                    Andrew Gaylord
+                </h1>
+                <p class="text-muted mb-4">
+                    <a href="https://github.com/AGaylord6" rel="external">GitHub</a> | <a href="https://www.linkedin.com/in/andrew-gaylord6/", ref="external">LinkedIn</a>
+                </p>
+                
+                <button type="button" class="btn btn-default btn-lg dropdown-toggle float-end text-white mb-4" data-bs-toggle="dropdown">
+                    <span class="glyphicon glyphicon-nav" aria-hidden="true"></span> Menu
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="about.html">About</a>
+                    <a class="dropdown-item" href="projects.html">Projects</a>
+                </div>
+                
+                <p2 id="about-text" class="lead text-white text-center mb-4" style="opacity: 0; transition: opacity 1s;">
+                    Junior CS major from North Carolina.<br><br>Interested in aerospace software, cybersecurity, and technological education.
+                </p2>
+        </div>
+
+        
+    </div>
+
+    <script src="revealText.js"></script>
+</body>
+
+</html>
