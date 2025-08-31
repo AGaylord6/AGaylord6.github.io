@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Andrew Gaylord's Blog</title>
+    <link>https://AGaylord6.github.io/</link>
+    <description>Student blog hosted on GitHub Pages</description>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Aug 2025 12:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Reading 01: What is a Hacker?</title>
+      <link>https://AGaylord6.github.io/pages/blogs/blog1.html</link>
+      <guid>https://AGaylord6.github.io/pages/blogs/blog1.html</guid>
+      <pubDate>Sat, 30 Aug 2025 12:00:00 GMT</pubDate>
+      <description><![CDATA[
+        What is a true hacker? Do I aspire to be one?
+      ]]></description>
+    </item>
+
+  </channel>
+</rss>

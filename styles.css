@@ -89,3 +89,23 @@ a {
     width: 100%;
     background: blue;
 }
+
+/* Blog list styling */
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container ul li {
+    margin: 10px 0;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #054a94;
+    font-weight: bold;
+}
+
+.container ul li a:hover {
+    text-decoration: underline;
+}
