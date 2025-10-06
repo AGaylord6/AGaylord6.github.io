@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading 05</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center mt-4">Reading 05: How to Talk to Computers</h1>
+        <!-- ensure mobile responsivity -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- import bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </header>
+
+    <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-bs-toggle="dropdown">
+        <span class="glyphicon glyphicon-nav" aria-hidden="true"></span> Menu
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="../../index.html">Home</a>
+        <a class="dropdown-item" href="../about.html">About</a>
+        <a class="dropdown-item" href="../blog.html">Blog</a>
+    </div>
+
+    <div class="container mt-4">
+        <h4 id="the-power-of-a-language">The Power of a Language</h4>
+        <p>Paul Graham has some thought-provoking writings about what makes a good programming language. He posits that holding all else equal, a programmer ought to pick to the most powerful language possible. This blanket statement seems to be focused on app development, where computing resources are near infinite. I believe Graham is missing the important tradeoff between different types of power. Some language's power comes from their speed, some thrive due to their ease of use and deployment, some have low-level power, and some languages cede their strength from their wide ecosystem. Most problems that I've faced can be solved by a language that is "powerful" in one or more of these areas (at the cost of at least 1 other). For example, Python and JavaScript have incredibly niche libraries, giving you a head start on essentially any problem. If you need a quick script that can run easily and provide system utilities, bash is incredibly powerful. In a resource-constrained environment, the fine tune resource control that C provides is invaluable. Et cetera, etc. I don't see many languages as strictly more powerful than others; instead, it heavily depends on your environment and goals.  </p>
+        <hr>
+        <h4 id="it-s-great-but-">It's Great, But....</h4>
+        <p>In somewhat of a contradiction to his other work, Paul Graham also points out:</p>
+        <blockquote>
+        <p>"Inefficient software isn't gross. What's gross is a language that makes programmers do needless work. Wasting programmer time is the true inefficiency, not wasting machine time."</p>
+        </blockquote>
+        <p>I love this description of waste. My main gripe with most languages is their esoteric syntax or inexplicable behavior. Clojure is a war crime: people try to wave away the onslaught of parenthesis ("you get used to it" (!?)), but they're downplaying its very real cost. I see the pain of learning, debugging, and rereading the accursed half-ovels as a major flaw in the language. Similarly, a programming language can have great power locked behind an unwillingness to do what you ask of it. Take JavaScript as an example: it is filled with unusual edge behavior that stumps, frustrates, and confuses. One way to avoid these languages' shortcomings is to simply become proficient in them, but I think telling people to get good unfairly shifts the responsibility.  </p>
+        <hr>
+        <h4 id="speak-something-weird">Speak Something Weird</h4>
+        <p>Graham's thoughts on the importance of competitive differentiation struck close to home for me. His story about how Lisp gave Viaweb an edge reminded me of a conversation with my uncle. He was talking about critical government systems that he'd worked adjacent to; I couldn't stop laughing as he described how our military and financial systems are built on 50+ year old behemoths running <em>Cobol and Fortran</em>. He talked about how the government was struggling to find people who could work on these legacy systems as his generation retired. It reminded me that any niche skill can be an advantage if applied correctly. There are hundreds of thousands of applicants who can write basic web apps or create simple Python scripts; to set oneself up for success, differentiation from this mass is key. The ability to explore niche technologies is not only a blessing for the creative mind: it provides a competitive advantage! </p>
+        <hr>
+        <br>
+
+    </div>
+</body>
+
+</html>
