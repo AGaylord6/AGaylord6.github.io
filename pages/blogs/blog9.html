@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading 09</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center mt-4">Reading 09: Linux: Simple, but not Easy</h1>
+        <!-- ensure mobile responsivity -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- import bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </header>
+
+    <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-bs-toggle="dropdown">
+        <span class="glyphicon glyphicon-nav" aria-hidden="true"></span> Menu
+    </button>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="../../index.html">Home</a>
+        <a class="dropdown-item" href="../about.html">About</a>
+        <a class="dropdown-item" href="../blog.html">Blog</a>
+    </div>
+
+    <div class="container mt-4">
+        <h4 id="linux-simple-but-not-easy">Linux: Simple, but not Easy</h4>
+        <p>In Linus Torvalds's <em>Just for Fun</em>, there are many fascinating tidbits about his upbringing and mindset. </p>
+        <hr>
+        <h4 id="the-man-the-myth-the-legend">The Man, the Myth, the Legend</h4>
+        <p>First off, I had no idea that Finland had mandatory military service. As an American, the idea seems quite foreign. It makes me wonder if Linus is not as reclusive and indoor-inclined as he might lead the readers to think. Or rather, he is better at facing the world at large when needed. A year of rough physical training and outdoor camping (and skiing!!) is bound to be a transformative experience for any young man. It also made perfect sense to me that he was an officer. Although low ranking (and "not very good" at it by his own admissions), such an experience is bound to come in handy when other developers start looking to you for guidance. </p>
+        <p>I also enjoyed his stories about interactions with his sister Sara. Despite being antisocial and unimpressed with people, I found it sweet that he always showed her his newest accomplishments. Writing "Sara is the best" to the screen of his first computer meant a lot to her, even if Linus does not remember it. It's a good reminder that our work can a great impact on those around us. There was also a funny reminder that some our work means a whole lot less to people who can't understand it--for example, Sara being unimpressed with custom task-switching on his new hardware. </p>
+        <p>Another important note about his character that I noticed: Linus is proof that good developers are scratching their own personal itches. I can relate to his feelings of apathy when there is no problem that interests him. Without a burning sense of enthusiasm, it's difficult to work on projects (especially when they're not being graded). It's reassuring to hear that brilliance isn't born in a vacuum; even for the most influential developer ever, grinding software is only fun when passion is involved. </p>
+        <hr>
+        <h4 id="hands-on-imperative">Hands-on Imperative</h4>
+        <p>Something very clear from Linus's autobiography is his dedication to the hands-on imperative. I'm sure many computer geeks were this way before we abstracted everything by 100 levels, but I was very impressed to read about the grittiness of all of his personal projects (up to and including his own OS, of course). Reverse engineering buggy operating systems using a disassembler is a different level of hands-on. Even with all of the nice decompilers available to us, I fear that most people aren't taking stuff apart like the programmers of old did. It makes me want to tackle me own projects more, no matter how gritty (or useless) they are. I probably won't write my own assembler and editors <strong>in assembly</strong> (the madman), but such low-level projects are the best way to truly gain  understanding. </p>
+        <hr>
+        <h4 id="the-simple-os">The Simple OS</h4>
+        <p>My favorite part of these chapters was the explanation of UNIX's guidelines from the man who understands them the best. Throwback to systems: </p>
+        <ol>
+        <li>Write programs that do one thing and do it well.</li>
+        <li>Write programs that work together.</li>
+        <li>Write programs to handle text streams, because that is a universal interface.</li>
+        </ol>
+        <p>It's a fun exercise to look at a UNIX-style program and see how it obeys these principles. Everything can be boiled down to 6 basic syscalls: read, write, open, close, fork, and exec. Throw some pipes in there to connect processes, and you can build virtually anything. I love this idea of simple building blocks and complex results. When you can set a good set of starting axioms, simple (but not easy) programs arise naturally. </p>
+        <hr>
+        <br>
+
+    </div>
+</body>
+
+</html>
